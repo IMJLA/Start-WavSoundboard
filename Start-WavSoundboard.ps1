@@ -1,3 +1,4 @@
 ﻿Import-Module "$PSScriptRoot\modules\Start-WavSoundboard.psm1"
-Start-WavSoundboard -WavPath "$PSScriptRoot\bin\LoopLords TI Vocaid"
+$WavFolder = (Get-ChildItem -Path "$PSScriptRoot\bin" -Directory | Select -First 1).FullName
+Start-WavSoundboard -WavPath $WavFolder
 pause
