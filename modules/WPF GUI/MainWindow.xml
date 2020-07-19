@@ -7,11 +7,11 @@
     Padding = "$WindowPadding"
     Title = "$Title"
     WindowStartupLocation = "CenterScreen"
-	Icon="$CurrentFolder\..\..\bin\LoopLords TI Vocaid\Icon.png"
+	Icon="$CurrentFolder\..\..\bin\Icon.png"
 >
 	<Window.Background>
 	
-		<ImageBrush ImageSource="$CurrentFolder\..\..\bin\LoopLords TI Vocaid\Background.jpg" />
+		<ImageBrush ImageSource="$CurrentFolder\..\..\bin\Background.jpg" />
 		
 	</Window.Background>
 	
